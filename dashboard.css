@@ -1,0 +1,54 @@
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    color: #1976D2;
+}
+
+h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+hr.divider {
+  height: 0.2rem;
+  max-width: 4.25rem;
+  margin: auto;
+  background-color: #1976D2;
+  opacity: 1;
+}
+
+.navbar-nav {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 12px; 
+    font-weight: 700;
+}
+
+.container-fluid {
+    margin-left: 15%;
+}
+
+.container {
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.img-fluid {
+    height: 43%;
+}
+
+.card-title {
+    color: #ab47bc;
+    font-size: 15px; 
+    font-weight: 700;
+}
+
+.carousel-item img{
+    height: 500px;
+}
+
+.nutri {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
