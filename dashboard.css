@@ -21,6 +21,10 @@ hr.divider {
   opacity: 1;
 }
 
+footer {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .navbar-nav {
     font-family: 'Encode Sans SC', sans-serif;
     font-size: 12px; 
@@ -45,8 +49,13 @@ hr.divider {
     font-weight: 700;
 }
 
+.card-text {
+    color: #424242;
+}
+
 .carousel-item img{
     height: 500px;
+    width: 400px;
 }
 
 .nutri {
