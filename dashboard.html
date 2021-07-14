@@ -10,23 +10,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="dashboard.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="shortcut icon" href="imagens/nutrition.png">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="index.html" style="color: #ab47bc;">HOME</a>
-                <a class="nav-link" href="#">BENEFÍCIOS</a>
-                <a class="nav-link" href="#">PARCERIAS</a>
-                <a class="nav-link" href="#">SOBRE NÓS</a>
+                <a class="nav-link" href="#beneficios">BENEFÍCIOS</a>
+                <a class="nav-link" href="#parcerias">PARCERIAS</a>
+                <a class="nav-link" href="#sobre">SOBRE NÓS</a>
             </div>
         </div>
     </nav>
 
-    <h1 class="text-center">LIFE STYLE</h1>
+    <h1 class="text-center" id="topo">LIFE STYLE</h1>
     <h6 class="text-center">viva de uma forma saudável</h6>
 
     <br><br>
@@ -55,7 +56,7 @@
 
     <br><br>
 
-    <h4 class="text-center">Alimentos e seus benefícios</h4>
+    <h4 class="text-center" id="beneficios">Alimentos e seus benefícios</h4>
     <hr class="divider">
 
     <br><br>
@@ -147,70 +148,121 @@
 
     <br><br><br>
 
-    <h4 class="text-center">Parcerias</h4>
+    <h4 class="text-center" id="parcerias">Parcerias</h4>
     <hr class="divider">
 
     <br><br>
 
-    <h4 style="margin-left: 10%;">Nutricionistas</h4>
+    <h4 class="parceiros">Nutricionistas</h4>
 
     <br><br>
 
-    <div class="row text-center">
+    <div class="container text-center">
+        <div class="row">
+        <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" src="imagens/nutri1.jpg" width="180" height="140">
 
-      <div class="col-sm-4">
-        <img class="rounded-circle" src="imagens/nutri1.jpg"
-          data-holder-rendered="true" width="45%" height="75%">
-        <h5 class="nutri">Patrícia Paiva</h5>
-      </div>
-      
-      <div class="col-sm-4">
-        <img class="rounded-circle" src="imagens/nutri2.jpg"
-          data-holder-rendered="true" width="45%" height="75%">
-        <h5 class="nutri">Larissa Oliveira</h5>
-      </div>
+            <h4>Patrícia Paiva</h4>
+            <p>patriciapaiva@gmail.com</p>
+            <p>(35) 99472-7893</p>
+            <p><button type="button" class="btn btn-outline-dark btn-lg">Ver detalhes »</button></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" src="imagens/nutri2.jpg" width="180" height="140">
 
-      <div class="col-sm-4">
-        <img class="rounded-circle" src="imagens/nutri3.jpg"
-          data-holder-rendered="true" width="45%" height="75%">
-        <h5 class="nutri">Mauro Filho</h5>
-      </div>
+            <h4>Larissa Oliveira</h4>
+            <p>larissaoliveira@gmail.com</p>
+            <p>(35) 97585-7691</p>
+            <p><button type="button" class="btn btn-outline-dark btn-lg">Ver detalhes »</button></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" src="imagens/nutri3.jpg" width="180" height="140">
 
+            <h4>Mauro Filho</h4>
+            <p>maurofilho@gmail.com</p>
+            <p>(35) 99571-1426</p>
+            <p><button type="button" class="btn btn-outline-dark btn-lg">Ver detalhes »</button></p>
+        </div>
+        </div>
     </div>
 
     <br><br>
 
-    <h4 style="margin-left: 10%;">Personais</h4>
+    <h4 class="parceiros">Personais</h4>
 
     <br><br>
 
-    <div class="row text-center">
+    <div class="container text-center">
+        <div class="row">
+        <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" src="imagens/perso1.jpg" width="180" height="140">
 
-      <div class="col-sm-4">
-        <img class="rounded-circle" src="imagens/perso1.jpg"
-          data-holder-rendered="true" width="45%" height="75%">
-        <h5 class="nutri">Thiago Rodrigues</h5>
-      </div>
-      
-      <div class="col-sm-4">
-        <img class="rounded-circle" src="imagens/perso3.jpg"
-          data-holder-rendered="true" width="45%" height="75%">
-        <h5 class="nutri">Luana Leite</h5>
-      </div>
+            <h4>Thiago Rodrigues</h4>
+            <p>thiagorodrigues@gmail.com</p>
+            <p>(35) 99988-6765</p>
+            <p><button type="button" class="btn btn-outline-dark btn-lg">Ver detalhes »</button></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" src="imagens/perso3.jpg" width="180" height="140">
 
-      <div class="col-sm-4">
-        <img class="rounded-circle" src="imagens/perso2.jpg"
-          data-holder-rendered="true" width="45%" height="75%">
-        <h5 class="nutri">Matheus Morais</h5>
-      </div>
+            <h4>Juliana Cunha</h4>
+            <p>julianacunha@gmail.com</p>
+            <p>(35) 98872-0455</p>
+            <p><button type="button" class="btn btn-outline-dark btn-lg">Ver detalhes »</button></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" src="imagens/perso2.jpg" width="180" height="140">
 
+            <h4>Matheus Borges</h4>
+            <p>matheusborges@gmail.com</p>
+            <p>(35) 99948-3065</p>
+            <p><button type="button" class="btn btn-outline-dark btn-lg">Ver detalhes »</button></p>
+        </div>
+        </div>
     </div>
-
-    <br><br>
-
-    <h4 style="margin-left: 10%;">Sobre Nós</h4>
 
     <br><br><br>
+
+    <h4 class="text-center" id="sobre">Sobre Nós</h4>
+    <hr class="divider">
+
+    <br><br>
+
+    <div class="text-center">
+        <p class="sobre">Life Style é uma empresa fictícia desenvolvida por Yara Hellen Silvestre.</p>
+        <p class="sobre">O objetivo é instigar o usuário a ter uma vida saudável e prazerosa por meio de exercícios físicos e reeducação alimentar.</p>
+    </div>
+
+    <br><br>
+
+    <div class="container text-center">
+        <video class="video-fluid z-depth-1" autoplay loop controls muted>
+            <source src="imagens/Life_Style.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <br><br><br>
+
+    <div class="text-center">
+        <a href="#topo"><span class="topo">Voltar ao topo</span></a>
+    </div>
+
+    <br>    
+    
+    <a href="#" class="float" id="menu-share">
+        <i class="fa fa-share my-float"></i>
+    </a>
+        <ul>
+        <li><a href="#">
+        <i class="fab fa-facebook-f my-float"></i>
+        </a></li>
+        <li><a href="#">
+        <i class="fab fa-instagram my-float"></i>
+        </a></li>
+        <li><a href="#">
+        <i class="fab fa-twitter my-float"></i>
+        </a></li>
+    </ul>
 
     <footer class="bg-light text-center text-lg-start">
         <div class="text-center p-3">
